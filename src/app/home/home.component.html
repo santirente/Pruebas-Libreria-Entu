@@ -1,1 +1,100 @@
-<p>home works!</p>
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1 class="card-header bg-info">
+      Welcome to {{ title }}!
+    </h1>
+    <h3 class="text-secondary">
+      PEV Selling Countries
+    </h3>
+    <div class="row ml-5">
+      <div class="col">
+          <div class="row">
+            <h4>
+              Vertical Bar Chart
+            </h4>
+          </div>
+          <div class="row">
+                <ngx-charts-bar-vertical
+                [view]="view"
+                [scheme]="colorScheme"
+                [results]="single"
+                [gradient]="gradient"
+                [xAxis]="showXAxis"
+                [yAxis]="showYAxis"
+                [legend]="showLegend"
+                [showXAxisLabel]="showXAxisLabel"
+                [showYAxisLabel]="showYAxisLabel"
+                [xAxisLabel]="xAxisLabel"
+                [yAxisLabel]="yAxisLabel">
+                </ngx-charts-bar-vertical>
+          </div>
+        </div>
+      </div>
+</div>
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1 class="card-header bg-info">
+    Welcome to {{ title }}!
+  </h1>
+  <h3 class="text-secondary">
+    PEV Selling Countries
+  </h3>
+  <div class="row ml-5">
+    <div class="col">
+        <div class="row">
+          <h4>
+            Vertical Bar Chart Normalized
+          </h4>
+        </div>
+        <div class="row">
+          <ngx-charts-bar-vertical-normalized
+          [view]="view"
+          [scheme]="colorScheme"
+          [results]="multi"
+          [gradient]="gradient"
+          [xAxis]="showXAxis"
+          [yAxis]="showYAxis"
+          [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel">
+          </ngx-charts-bar-vertical-normalized>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1 class="card-header bg-info">
+    Welcome to {{ title }}!
+  </h1>
+  <h3 class="text-secondary">
+    PEV Selling Countries
+  </h3>
+  <div class="row ml-5">
+    <div class="col">
+        <div class="row">
+          <h4>
+            Stacked Vertical Bar Chart
+          </h4>
+        </div>
+        <div class="row">
+          <ngx-charts-bar-vertical-stacked
+          [view]="view"
+          [scheme]="colorScheme"
+          [results]="multi"
+          [gradient]="gradient"
+          [xAxis]="showXAxis"
+          [yAxis]="showYAxis"
+          [legend]="showLegend"
+          [showXAxisLabel]="showXAxisLabel"
+          [showYAxisLabel]="showYAxisLabel"
+          [xAxisLabel]="xAxisLabel"
+          [yAxisLabel]="yAxisLabel">
+          </ngx-charts-bar-vertical-stacked>
+        </div>
+      </div>
+    </div>
+</div>
