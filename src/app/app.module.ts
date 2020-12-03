@@ -3,16 +3,26 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
+import { LineChartComponent } from './line-chart/line-chart.component';
+import { PieChartComponent } from './pie-chart/pie-chart.component';
+import { RadarChartComponent } from './radar-chart/radar-chart.component';
+import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    BubbleChartComponent,
+    LineChartComponent,
+    PieChartComponent,
+    RadarChartComponent,
+    DoughnutChartComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
