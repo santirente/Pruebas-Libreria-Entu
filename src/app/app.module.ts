@@ -9,6 +9,8 @@ import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { RadarChartComponent } from './radar-chart/radar-chart.component';
 import { DoughnutChartComponent } from './doughnut-chart/doughnut-chart.component';
 import { ChartsModule } from 'ng2-charts';
+import { BarChartComponent} from './bar-chart/bar-chart.component';
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,7 @@ import { ChartsModule } from 'ng2-charts';
     PieChartComponent,
     RadarChartComponent,
     DoughnutChartComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
